@@ -1,0 +1,31 @@
+.flowers-container{
+    background-color: rgb(71, 40, 2);
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(65, 59, 1);
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-el{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    font-weight: 900;
+}
